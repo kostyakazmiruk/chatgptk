@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 
 export default function Page() {
   const { messages, input, setInput, append } = useChat();
+  console.log("messages", messages);
 
   return (
     <div className="static flex flex-col h-screen max-h-screen w-full mx-auto">
